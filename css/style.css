@@ -917,3 +917,110 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+h1 {
+  font-size: calc(1em + 4vw);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero {
+  background: #000;
+  color: #fff;
+  padding: 2em;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero_text {
+  position: relative;
+  z-index: 10;
+}
+
+.hero_skewed--right,
+.hero_skewed--left {
+  top: 0;
+  height: 100%;
+  width: 75%;
+  position: absolute;
+  overflow: hidden;
+  animation-name: outer;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  transform: skew(-20deg, 0deg) translate(0, 0);
+}
+
+@keyframes outer {
+  0% {
+    transform: skew(-20deg, 0deg) translate(0, 0)
+  }
+  33% {
+    transform: skew(-20deg, 0deg) translate(-50px, 0)
+  }
+  66% {
+    transform: skew(-20deg, 0deg) translate(50px, 0)
+  }
+  100% {
+    transform: skew(-20deg, 0deg) translate(0, 0)
+  }
+}
+
+
+.hero_skewed--left {
+  left: -25%;
+}
+
+.hero_skewed--right {
+  right: -25%;
+}
+
+.unskewed--left,
+.unskewed--right {
+  height: 100%;
+  width: 125%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  animation-name: inner;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  transform: skew(20deg, 0deg) translate(0, 0);
+}
+
+@keyframes inner {
+  0% {
+    transform: skew(20deg, 0deg) translate(0, 0)
+  }
+  33% {
+    transform: skew(20deg, 0deg) translate(50px, 0)
+  }
+  66% {
+    transform: skew(20deg, 0deg) translate(-50px, 0)
+  }
+  100% {
+    transform: skew(20deg, 0deg) translate(0, 0)
+  }
+}
+
+.unskewed--left {
+  background-image: url(https://picsum.photos/600/1300/);
+  left: 0;
+}
+
+.unskewed--right {
+  background-image: url(https://picsum.photos/800/1200/);
+  right: 0;
+}
