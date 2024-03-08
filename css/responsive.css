@@ -356,7 +356,7 @@
 
 @media (max-width: 576px) {
   .header_top a span {
-    display: none;
+    display: block;
   }
 
   .slider_section .detail-box h2 {
@@ -367,7 +367,7 @@
 
 @media (max-width: 480px) {
   .header_top a span {
-    display: none;
+    display: inline-block;
   }
 
   .slider_section .detail-box h2 {
@@ -378,7 +378,7 @@
 
 @media (max-width: 420px) {
   .header_top a span {
-    display: none;
+    display: inline-block;
   }
 
   .slider_section .detail-box h2 {
@@ -389,7 +389,7 @@
 
 @media (max-width: 376px) {
     .header_top a span {
-    display: none;
+    display: inline-block;
   }
 
   .slider_section .detail-box h2 {
