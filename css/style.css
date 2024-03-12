@@ -1016,11 +1016,11 @@ h1 {
 }
 
 .unskewed--left {
-  background-image: url(https://picsum.photos/600/1300/);
+  background-image: url();
   left: 0;
 }
 
 .unskewed--right {
-  background-image: url(https://picsum.photos/800/1200/);
+  background-image: url();
   right: 0;
 }
