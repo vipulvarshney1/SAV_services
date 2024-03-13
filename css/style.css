@@ -480,8 +480,6 @@ a:focus {
   background-color: #ffffff;
   padding: 25px 15px;
   text-align: center;
-  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
   margin-top: 45px;
   border-radius: 50px;
 }
