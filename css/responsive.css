@@ -220,6 +220,9 @@
 
     .slider_section {
         padding: 50px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .detail-box {
@@ -278,6 +281,9 @@
 
   .slider_section {
     padding: 45px 0 150px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .sub_page .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
@@ -286,11 +292,12 @@
 }
 
 @media (max-width: 768px) {
-  .slider_section ol.carousel-indicators {
-    justify-content: center;
-  }
+ 
 
   .slider_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
   }
 
@@ -321,16 +328,7 @@
     flex-wrap: wrap;
   }
 
-  .client_section .carousel_btn-box {
-    margin-top: 25px;
-  }
 
-  .client_section .carousel-control-prev,
-  .client_section .carousel-control-next {
-    position: unset;
-    transform: none;
-    margin: 0 2.5px;
-  }
 
   .info_section .row .col-md-3 {
 
@@ -358,9 +356,14 @@
   .header_top a span {
     display: block;
   }
+  .slider_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
   .slider_section .detail-box h2 {
-    font-size: 2.2rem;
+    
     line-height: 35px;
   }
 }
@@ -369,9 +372,13 @@
   .header_top a span {
     display: inline-block;
   }
-
+  .slider_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .slider_section .detail-box h2 {
-    font-size: 2.0rem;
+    
     line-height: 35px;
   }
 }
@@ -380,7 +387,11 @@
   .header_top a span {
     display: inline-block;
   }
-
+  .slider_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .slider_section .detail-box h2 {
     font-size: 1.5rem;
     line-height: 35px;
@@ -391,7 +402,11 @@
     .header_top a span {
     display: inline-block;
   }
-
+  .slider_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .slider_section .detail-box h2 {
     font-size: 1.0rem;
     line-height: 35px;
