@@ -72,6 +72,10 @@
       .hero_area {
         height: auto;
       }
+      .box {
+        margin-bottom: 20px;
+      }
+
 
       .slider_section {
         padding: 40px 0;
