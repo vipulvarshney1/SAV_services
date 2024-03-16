@@ -26,6 +26,37 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
     <style>
+          transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .box {
+        margin-bottom: 20px;
+    }
+}
+      @media screen and (max-width: 576px) {
+    .box {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .box {
+        margin-bottom: 10px;
+    }
+}
+/* Styles for button box */
+.btn-box {
+    transition: transform 0.3s ease;
+}
+
+.btn-box:hover {
+    transform: scale(1.1);
+}
         .brief-info{
             background-color: rgb(214, 208, 208);
         }
@@ -108,11 +139,12 @@
             <!-- slider section -->
               <section class=" slider_section" id="sect">
             <div class="hero">
-              <div class="hero_text"><br><br>
+              <div class="hero_text"><br><br><br>
                  <h1>  The Agency <br>
                     <span>
                         accelerating your journey from listing to selling 
                     </span></h1>
+<br>
                 <h4>
                   <strong>Stop struggling and start thriving! Adplication</strong> empowers your online business with the tools and expertise you need to succeed.
                 </h4>
@@ -185,12 +217,12 @@
 
   <section class="service_section layout_padding" id="Our_Services">
     <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Our services
-        </h2>
-      </div>
-      <div class="row">
+        <div class="heading_container heading_center">
+            <h2>
+                Our services
+            </h2>
+        </div>
+        <div class="row">
         <div class="col-lg-4">
           <div class="box">
             <div class="img-box">
